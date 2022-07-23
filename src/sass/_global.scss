@@ -1,0 +1,32 @@
+a{
+	color: inherit;
+}
+
+html,
+body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #262626;
+}
+body._lock{
+    overflow: hidden;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+	flex: 1 1 auto;
+}
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}

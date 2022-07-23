@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector(".menu__icon");if(e){const t=document.querySelector(".menu__body");e.addEventListener("click",(function(c){document.body.classList.toggle("_lock"),e.classList.toggle("_active"),t.classList.toggle("_active")}))}}();
